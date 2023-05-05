@@ -1,0 +1,46 @@
+.logo{
+    display: block;
+}
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.izbox {
+    display: grid;
+    width: max-content;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 15px;
+   
+}
+.derbox {
+    display: grid;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 15px;
+}
+#entrada {
+    width: 70vh;
+    height:75vh;
+    border-radius: 20px;
+    
+}
+#salida {
+    width: 70vh;
+    height: 75vh;
+    border-radius: 20px;
+}
+.bne, .copiar{
+    width: 40vh;
+    margin: 3px;
+    border-radius: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+ 
+}
+footer{
+    display: flex; 
+    justify-content: space-around;
+}
